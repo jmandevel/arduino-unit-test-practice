@@ -17,3 +17,5 @@ The test in <test/test_analog_write> contains a test that is designed to run on 
 ## Let's Write Some Tests!
 
 Take a look at <src/main.cpp>. This is a simple Arduino program that alternates an LED through every color of the rainbow. How can we make unit tests for this code? Can we modify the source code to make it easier to test?
+
+Go ahead and make some tests for the Arduino program. If you want to be able include a header file with functions in both tests and the Arduino program, move them to source files within a subfolder of the lib folder. Look at how the test_example folder is organized if you are confused.
