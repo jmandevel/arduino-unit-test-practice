@@ -3,7 +3,7 @@ name: CI
 on: [push, workflow_dispatch]
 
 jobs:
-  test-compile-arduino:
+  test-native:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
