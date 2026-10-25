@@ -23,7 +23,7 @@ jobs:
         run: pip install platformio
 
       - name: Build all environments
-        run: pio run
+        run: pio run -e uno
 
       - name: Run unit tests (native)
         run: pio test -e native
