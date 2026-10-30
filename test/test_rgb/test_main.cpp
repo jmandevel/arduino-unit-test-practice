@@ -2,13 +2,13 @@
 #include <unity.h>
 
 void test_state_change() {
-    TEST_ASSERT_TRUE(nextColor(Color::red) == Color::orange);
-    TEST_ASSERT_TRUE(nextColor(Color::orange) == Color::yellow);
-    TEST_ASSERT_TRUE(nextColor(Color::yellow) == Color::green);
-    TEST_ASSERT_TRUE(nextColor(Color::green) == Color::blue);
-    TEST_ASSERT_TRUE(nextColor(Color::blue) == Color::indigo);
-    TEST_ASSERT_TRUE(nextColor(Color::indigo) == Color::violet);
-    TEST_ASSERT_TRUE(nextColor(Color::violet) == Color::red);
+  TEST_ASSERT_TRUE(nextColor(Color::red) == Color::orange);
+  TEST_ASSERT_TRUE(nextColor(Color::orange) == Color::yellow);
+  TEST_ASSERT_TRUE(nextColor(Color::yellow) == Color::green);
+  TEST_ASSERT_TRUE(nextColor(Color::green) == Color::blue);
+  TEST_ASSERT_TRUE(nextColor(Color::blue) == Color::indigo);
+  TEST_ASSERT_TRUE(nextColor(Color::indigo) == Color::violet);
+  TEST_ASSERT_TRUE(nextColor(Color::violet) == Color::red);
 }
 
 void test_get_rgb() {
